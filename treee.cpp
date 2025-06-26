@@ -49,5 +49,10 @@ class binarytree{
             newnode->leftchild = nullptr;
             newnode->rightchild = nullptr;
 
+            //step4 lokasi node parent = null
+            node *parent = nullptr;
+            node *currentnode = nullptr;
+            search(x, parent, currentnode);
+
             
 };
