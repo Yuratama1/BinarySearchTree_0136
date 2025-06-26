@@ -39,5 +39,8 @@ class binarytree{
             cout << "Masukkan Nilai: ";
             cin >> x;
 
+            //step1 alokasi memeory untuk newnode
+            node *newnode = new node();
+
             
 };
