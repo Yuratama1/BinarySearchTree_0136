@@ -25,5 +25,14 @@ class binarytree{
             //ini fungsi search untuk currentnode spesifik
             currentnode = root;
             parent = nullptr;
-           
+            while((currentnode != nullptr) && (currentnode->info != element)){
+                parent = currentnode;
+                if(element < currentnode->info)
+                    currentnode = currentnode->leftchild;
+                else
+                    currentnode = currentnode->rightchild;
+            }
+        }
+
+        
 };
