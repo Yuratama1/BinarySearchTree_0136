@@ -72,5 +72,14 @@ class binarytree{
                 return;
             }
 
-            
+            //step7 jika nilai data of newnode benar maka
+            else if(x >parent->info){
+                //7a buat tanda rigt dari parent point to newnode
+                parent->rightchild = newnode;
+
+                //7b exit
+                return;
+            }
+        }
 };
+
