@@ -63,5 +63,14 @@ class binarytree{
                 return;
             }
 
+            //step6 jika niali data = newnode is less that parent
+            if(x < parent->info){
+                //6a buat leftchild dari perent point ke newnode
+                parent->leftchild = newnode;
+
+                //6b exit
+                return;
+            }
+
             
 };
