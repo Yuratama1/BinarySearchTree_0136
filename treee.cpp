@@ -81,5 +81,11 @@ class binarytree{
                 return;
             }
         }
-};
 
+        bool isEmpty(){
+        //check jika tree empty
+        return root == nullptr;
+        }
+
+       
+};
