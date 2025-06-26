@@ -54,5 +54,14 @@ class binarytree{
             node *currentnode = nullptr;
             search(x, parent, currentnode);
 
+            //step5 jika parent null(tree is empty)
+            if(parent == nullptr){
+                //5a buat mark newnode untuk root
+                root = newnode;
+
+                //5b exit
+                return;
+            }
+
             
 };
