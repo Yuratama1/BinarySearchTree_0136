@@ -10,6 +10,15 @@ class node{
         //constructor untuk class node
         node(){
             leftchild = nullptr; // inisiasi left child ke null
-            rightchild = nullptr;
+            rightchild = nullptr;// insisisi right child ke null
         }
+};
+
+class binarytree{
+    public:
+        node *root;
+        binarytree(){
+            root = nullptr; // inisiasi root ke null
+        }
+
 };
