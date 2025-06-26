@@ -42,5 +42,8 @@ class binarytree{
             //step1 alokasi memeory untuk newnode
             node *newnode = new node();
 
+            //step2 tandain nilai pada data = newnode
+            newnode->info = x;
+
             
 };
