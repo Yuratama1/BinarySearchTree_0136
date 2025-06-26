@@ -45,5 +45,9 @@ class binarytree{
             //step2 tandain nilai pada data = newnode
             newnode->info = x;
 
+            //step 3 buat left dan right child jadi newnode = null
+            newnode->leftchild = nullptr;
+            newnode->rightchild = nullptr;
+
             
 };
