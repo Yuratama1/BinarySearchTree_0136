@@ -21,4 +21,7 @@ class binarytree{
             root = nullptr; // inisiasi root ke null
         }
 
+        void search(int element, node *&parent, node *&currentnode){
+            //ini fungsi search untuk currentnode spesifik
+            
 };
